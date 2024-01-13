@@ -87,61 +87,61 @@ require_once 'config/db.php';
                                                     <input type="text" class="form-control digit" placeholder="0"
                                                         maxlength="1" autocomplete="off" value="0" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:5px;">
+                                                        style="width:30px;text-align: center;flex:5; padding:5px;text-align: justify;">
                                                 </div>
                                             </div>
                                         </div><br>
