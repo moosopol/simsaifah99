@@ -349,7 +349,6 @@ a:focus {
 
 .slider_section .find_container form .form-group {
   margin: 15px 0;
-  padding: 5 15px;
 }
 
 .slider_section .find_container form .form-control {
@@ -361,7 +360,7 @@ a:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 5px;
-  padding: 0 15px;
+  padding: 15px;
   background-color: #ffffff;
 }
 
