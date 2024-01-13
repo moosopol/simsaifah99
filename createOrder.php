@@ -80,27 +80,27 @@ if (isset($_SESSION['user_login'])) {
                             ?>
                             <!-- ----------------------------------- -->
                             <!-- $_SESSION['user_login'] = $row['id']; -->
-                            <!-- <div class="mb-3" hidden-element>
-                            <label for="customer" class="col-form-label">customer ID:</label>
-                            <input type="text" 0 readonly value="<?= $row['id']; ?>" required class="form-control"
-                                name="customer">
-                        </div>
-                        <div class="mb-3">
-                            <label for="num_id" class="col-form-label">number ID:</label>
-                            <input type="text" readonly value="<?= $number['phonenumber']; ?>" required
-                                class="form-control" name="num_id">
-                        </div>
-                        <div class="mb-3">
-                            <label for="orderdate" class="col-form-label">Order date:</label>
-                            <input type="text" readonly value="<?php echo date('Y-m-d'); ?>" required
-                                class="form-control" name="orderdate">
-                        </div>
+                            <div class="mb-3" hidden-element>
+                                <label for="customer" class="col-form-label">customer ID:</label>
+                                <input type="text" 0 readonly value="<?= $row['id']; ?>" required class="form-control"
+                                    name="customer">
+                            </div>
+                            <div class="mb-3">
+                                <label for="num_id" class="col-form-label">number ID:</label>
+                                <input type="text" readonly value="<?= $number['phonenumber']; ?>" required
+                                    class="form-control" name="num_id">
+                            </div>
+                            <div class="mb-3">
+                                <label for="orderdate" class="col-form-label">Order date:</label>
+                                <input type="text" readonly value="<?php echo date('Y-m-d'); ?>" required
+                                    class="form-control" name="orderdate">
+                            </div>
 
-                        <div class="mb-3">
-                            <label for="status" class="col-form-label">status:</label>
-                            <input type="text" readonly value="Pending" required class="form-control" name="status">
-                        </div>
- -->
+                            <div class="mb-3">
+                                <label for="status" class="col-form-label">status:</label>
+                                <input type="text" readonly value="Pending" required class="form-control" name="status">
+                            </div>
+
 
                             <!-- ----------------------------------- -->
                             <div class="mb-3">
