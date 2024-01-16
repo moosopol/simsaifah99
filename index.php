@@ -88,7 +88,8 @@ require_once 'config/db.php';
                                                         maxlength="1" autocomplete="off" value="0" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
                                                         style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
-                                                </div>123
+                                                </div>
+                                                <div>-</div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
