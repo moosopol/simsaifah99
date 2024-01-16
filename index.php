@@ -87,61 +87,61 @@ require_once 'config/db.php';
                                                     <input type="text" class="form-control digit" placeholder="0"
                                                         maxlength="1" autocomplete="off" value="0" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder=""
                                                         maxlength="1" autocomplete="off" value="" pattern="[0-9]*"
                                                         name="numbers[]" onkeydown=""
-                                                        style="width:30px;text-align: center;flex:5; padding:20px;justify-content: space-between;">
+                                                        style="width:30px;text-align: center;flex:5; padding:2px;justify-content: space-between;">
                                                 </div>
                                             </div>
                                         </div><br>
@@ -320,41 +320,41 @@ require_once 'config/db.php';
                     } else {
                         foreach ($stock as $number) {
                             ?>
-                    <tr>
+                            <tr>
 
-                        <div class="col-lg-4">
-                            <div class="box"
-                                style=" background: linear-gradient(to bottom right, #d7b335 20%, #FFD700 100%);">
-                                <table class="table-layout">
-                                    <tr>
-                                        <td rowspan=2 colspan=5 class="left-cell">
-                                            <div class="job_content-box">
-                                                <h3>
-                                                    <?php
+                                <div class="col-lg-4">
+                                    <div class="box"
+                                        style=" background: linear-gradient(to bottom right, #d7b335 20%, #FFD700 100%);">
+                                        <table class="table-layout">
+                                            <tr>
+                                                <td rowspan=2 colspan=5 class="left-cell">
+                                                    <div class="job_content-box">
+                                                        <h3>
+                                                            <?php
                                                             $phoneNumber = $number['phonenumber'];
                                                             $formattedPhoneNumber = substr($phoneNumber, 0, 3) . '-' . substr($phoneNumber, 3, 3) . '-' . substr($phoneNumber, 6);
                                                             ?>
-                                                    <a href="horo.php"
-                                                        title="คำทำนาย"><?php echo $formattedPhoneNumber; ?></a>
-                                                </h3>
+                                                            <a href="horo.php"
+                                                                title="คำทำนาย"><?php echo $formattedPhoneNumber; ?></a>
+                                                        </h3>
 
-                                            </div>
-                                        </td>
+                                                    </div>
+                                                </td>
 
-                                        <td class="right-cell">
-                                            <div class="job_content-box">
-                                                <img width="30%" src="network/<?= $number['network']; ?>"
-                                                    class="rounded" alt="">
+                                                <td class="right-cell">
+                                                    <div class="job_content-box">
+                                                        <img width="30%" src="network/<?= $number['network']; ?>"
+                                                            class="rounded" alt="">
 
-                                            </div>
-                                        </td>
+                                                    </div>
+                                                </td>
 
-                                    </tr>
+                                            </tr>
 
-                                    <tr>
-                                        <td class="right-cell">
-                                            <div class="job_content-box">
-                                                <?php
+                                            <tr>
+                                                <td class="right-cell">
+                                                    <div class="job_content-box">
+                                                        <?php
                                                         $network_value = $number['network'];
 
                                                         switch ($network_value) {
@@ -378,49 +378,49 @@ require_once 'config/db.php';
                                                                 break;
                                                         }
                                                         ?>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-
-                                        <div class="left-cell">
-                                            <td>
-                                                <div class="detail-box">
-                                                    <div class="detail-info">
-                                                        <h6>
-                                                            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-                                                            <span><?= $number['sum']; ?></span>
-                                                        </h6>
-
                                                     </div>
-                                                </div>
-                                            </td>
+                                                </td>
+                                            </tr>
 
-                                            <td>
-                                                <div class="detail-box">
-                                                    <div class="detail-info">
+                                            <tr>
 
-                                                        <h6>
-                                                            <?php
+                                                <div class="left-cell">
+                                                    <td>
+                                                        <div class="detail-box">
+                                                            <div class="detail-info">
+                                                                <h6>
+                                                                    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+                                                                    <span><?= $number['sum']; ?></span>
+                                                                </h6>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="detail-box">
+                                                            <div class="detail-info">
+
+                                                                <h6>
+                                                                    <?php
                                                                     $price = $number['price'];
                                                                     if ($price > 0) {
                                                                         echo '<i class="fa fa-money" aria-hidden="true"></i> ';
                                                                         echo '<span>' . number_format($price) . '.-</span>';
                                                                     }
                                                                     ?>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </td>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </td>
 
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </div>
-                                        <td colspan=2 class="right-cell">
-                                            <div class="option-box">
-                                                <?php
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </div>
+                                                <td colspan=2 class="right-cell">
+                                                    <div class="option-box">
+                                                        <?php
                                                         $status = $number['status'];
                                                         if ($status === 'avialable') {
                                                             echo '<a href="createOrder.php?id=' . $number['id'] . '" class="apply-btn">detail</a>';
@@ -428,27 +428,27 @@ require_once 'config/db.php';
                                                             echo '<button class="booked-btn">Booked</button>';
                                                         }
                                                         ?>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
 
-                        <style>
-                        .table-layout {
-                            width: 100%;
-                        }
+                                <style>
+                                .table-layout {
+                                    width: 100%;
+                                }
 
-                        .left-cell {
-                            width: 50%;
-                        }
+                                .left-cell {
+                                    width: 50%;
+                                }
 
-                        .right-cell {
-                            width: 20%;
-                        }
-                        </style>
-                        <?php }
+                                .right-cell {
+                                    width: 20%;
+                                }
+                                </style>
+                            <?php }
                     } ?>
 
 
@@ -477,41 +477,41 @@ require_once 'config/db.php';
                     } else {
                         foreach ($stock as $number) {
                             ?>
-                    <tr>
+                            <tr>
 
-                        <div class="col-lg-4">
-                            <div class="box"
-                                style=" background: linear-gradient(to bottom right, #d7b335 20%, #FFD700 100%);">
-                                <table class="table-layout">
-                                    <tr>
-                                        <td rowspan=2 colspan=5 class="left-cell">
-                                            <div class="job_content-box">
-                                                <h3>
-                                                    <?php
+                                <div class="col-lg-4">
+                                    <div class="box"
+                                        style=" background: linear-gradient(to bottom right, #d7b335 20%, #FFD700 100%);">
+                                        <table class="table-layout">
+                                            <tr>
+                                                <td rowspan=2 colspan=5 class="left-cell">
+                                                    <div class="job_content-box">
+                                                        <h3>
+                                                            <?php
                                                             $phoneNumber = $number['phonenumber'];
                                                             $formattedPhoneNumber = substr($phoneNumber, 0, 3) . '-' . substr($phoneNumber, 3, 3) . '-' . substr($phoneNumber, 6);
                                                             ?>
-                                                    <a href="horo.php"
-                                                        title="คำทำนาย"><?php echo $formattedPhoneNumber; ?></a>
-                                                </h3>
+                                                            <a href="horo.php"
+                                                                title="คำทำนาย"><?php echo $formattedPhoneNumber; ?></a>
+                                                        </h3>
 
-                                            </div>
-                                        </td>
+                                                    </div>
+                                                </td>
 
-                                        <td class="right-cell">
-                                            <div class="job_content-box">
-                                                <img width="30%" src="network/<?= $number['network']; ?>"
-                                                    class="rounded" alt="">
+                                                <td class="right-cell">
+                                                    <div class="job_content-box">
+                                                        <img width="30%" src="network/<?= $number['network']; ?>"
+                                                            class="rounded" alt="">
 
-                                            </div>
-                                        </td>
+                                                    </div>
+                                                </td>
 
-                                    </tr>
+                                            </tr>
 
-                                    <tr>
-                                        <td class="right-cell">
-                                            <div class="job_content-box">
-                                                <?php
+                                            <tr>
+                                                <td class="right-cell">
+                                                    <div class="job_content-box">
+                                                        <?php
                                                         $network_value = $number['network'];
 
                                                         switch ($network_value) {
@@ -535,49 +535,49 @@ require_once 'config/db.php';
                                                                 break;
                                                         }
                                                         ?>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-
-                                        <div class="left-cell">
-                                            <td>
-                                                <div class="detail-box">
-                                                    <div class="detail-info">
-                                                        <h6>
-                                                            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-                                                            <span><?= $number['sum']; ?></span>
-                                                        </h6>
-
                                                     </div>
-                                                </div>
-                                            </td>
+                                                </td>
+                                            </tr>
 
-                                            <td>
-                                                <div class="detail-box">
-                                                    <div class="detail-info">
+                                            <tr>
 
-                                                        <h6>
-                                                            <?php
+                                                <div class="left-cell">
+                                                    <td>
+                                                        <div class="detail-box">
+                                                            <div class="detail-info">
+                                                                <h6>
+                                                                    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+                                                                    <span><?= $number['sum']; ?></span>
+                                                                </h6>
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="detail-box">
+                                                            <div class="detail-info">
+
+                                                                <h6>
+                                                                    <?php
                                                                     $price = $number['price'];
                                                                     if ($price > 0) {
                                                                         echo '<i class="fa fa-money" aria-hidden="true"></i> ';
                                                                         echo '<span>' . number_format($price) . '.-</span>';
                                                                     }
                                                                     ?>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </td>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </td>
 
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </div>
-                                        <td colspan=2 class="right-cell">
-                                            <div class="option-box">
-                                                <?php
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </div>
+                                                <td colspan=2 class="right-cell">
+                                                    <div class="option-box">
+                                                        <?php
                                                         $status = $number['status'];
                                                         if ($status === 'avialable') {
                                                             echo '<a href="createOrder.php?id=' . $number['id'] . '" class="apply-btn">detail</a>';
@@ -585,27 +585,27 @@ require_once 'config/db.php';
                                                             echo '<button class="booked-btn">Booked</button>';
                                                         }
                                                         ?>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
 
-                        <style>
-                        .table-layout {
-                            width: 100%;
-                        }
+                                <style>
+                                .table-layout {
+                                    width: 100%;
+                                }
 
-                        .left-cell {
-                            width: 50%;
-                        }
+                                .left-cell {
+                                    width: 50%;
+                                }
 
-                        .right-cell {
-                            width: 20%;
-                        }
-                        </style>
-                        <?php }
+                                .right-cell {
+                                    width: 20%;
+                                }
+                                </style>
+                            <?php }
                     } ?>
 
 
@@ -646,27 +646,27 @@ require_once 'config/db.php';
                 } else {
                     foreach ($article as $art) {
                         ?>
-                <div class="col-md-6 col-lg-4 mx-auto">
-                    <div class="box">
-                        <div class="img-box">
-                            <img width="100%" src="art/<?= $art['img']; ?>" class="rounded" alt="">
+                        <div class="col-md-6 col-lg-4 mx-auto">
+                            <div class="box">
+                                <div class="img-box">
+                                    <img width="100%" src="art/<?= $art['img']; ?>" class="rounded" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <a href="">
+
+                                        <?= $art['title']; ?>
+                                    </a>
+                                    <h6 class="expert_position">
+                                        <span>
+                                            <?= $art['category']; ?>
+                                        </span>
+
+                                    </h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="detail-box">
-                            <a href="">
 
-                                <?= $art['title']; ?>
-                            </a>
-                            <h6 class="expert_position">
-                                <span>
-                                    <?= $art['category']; ?>
-                                </span>
-
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-
-                <?php }
+                    <?php }
                 } ?>
             </div>
             <div class="btn-box">
