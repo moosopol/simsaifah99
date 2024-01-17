@@ -82,7 +82,7 @@ require_once 'config/db.php';
                                     <div class="form-row col-lg-9 col-md-8 mx-auto">
                                         <div class="my-container">
 
-                                            <div class="form-group col-lg-12 " style="display: flex; padding:5px;">
+                                            <div class="form-group  " style="display: flex; padding:5px;">
                                                 <div>
                                                     <input type="text" class="form-control digit" placeholder="0"
                                                         maxlength="1" autocomplete="off" value="0" pattern="[0-9]*"
